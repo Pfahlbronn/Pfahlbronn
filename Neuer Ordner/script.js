@@ -1,0 +1,1 @@
+const b=document.querySelector('#dark');b.onclick=()=>{document.body.classList.toggle('darkmode');b.textContent=document.body.classList.contains('darkmode')?'☀':'☾';};
